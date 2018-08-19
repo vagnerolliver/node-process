@@ -17,7 +17,7 @@ keyboard.onReadable((options) => {
         console.log('platform: ' + process.platform);
         break;
     case 'e':
-        console.log('env: ' + process.env);
+        console.log('env: ',  process.env);
         break;
     default:
       help.showOptions();
